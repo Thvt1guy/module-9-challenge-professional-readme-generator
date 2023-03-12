@@ -98,6 +98,10 @@ function generateMarkdown(data) {
   ${data.description}
  
   ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
 
   ## Installation
   ${data.installation}
@@ -111,7 +115,10 @@ function generateMarkdown(data) {
   ## Tests
   ${data.tests}
   ## Questions
-  Reach me at https://github.com/${data.githubUsername}
+  https://github.com/${data.githubUsername}
+
+  Reach me at ${data.email}
+  
 `;
 }
 
